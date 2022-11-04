@@ -1,0 +1,40 @@
+@import url(widgets.css);
+header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    z-index: 1;
+}
+.logo .logosubcolor{
+    color: var(--purple_color);
+}
+nav a{
+    margin: 10px;
+}
+nav a:hover{
+    border-bottom: 1px solid var(--purple_color);
+}
+nav.active{
+    top: 50px;
+    transition: all 0.7s ease-out;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu i{
+    font-size: 25px;
+}
+@media all and (max-width:810px) {
+    nav{
+        transition: all 0.7s ease-out;
+    }
+    .menu{
+        display: block;
+    }
+}
