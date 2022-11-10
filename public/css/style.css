@@ -245,11 +245,13 @@ main{
       }
     .Jdescription span{
           font-size: 1.2rem;
+          margin:0px auto;
       }
     .Jpdescription,
     .FCdescription,  
     .ctext p{
           font-size: .8rem;
+          margin:0px auto;
         
       }
     .card-work{
