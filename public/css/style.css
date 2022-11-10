@@ -189,7 +189,19 @@ main{
         width: 100%;
         height: auto;
         margin: 100px 0px;
-    }
+    }   
+    .title{
+        font-size: 2rem;
+      }
+    .Jdescription span{
+          font-size: 1.5rem;
+      }
+    .Jpdescription,
+    .FCdescription,  
+    .ctext p{
+          font-size: 1rem;
+        
+      }
      /*Portfolio*/
      .portfolio{
          width: 100%;
@@ -228,23 +240,18 @@ main{
     html{
         font-size: 16px; 
      }
-    .title{
-      font-size: 1.8rem;
-    }
-    .Jdescription{
-        font-size: 1.4rem;
-    }
-    .Jpdescription{
-        font-size: 1rem;
-      
-    }
-    .FCdescription{
-        font-size: 1rem;
-       
-    }
+     .title{
+        font-size: 1.5rem;
+      }
+    .Jdescription span{
+          font-size: 1.2rem;
+      }
+    .Jpdescription,
+    .FCdescription,  
     .ctext p{
-        font-size: 1rem;
-    }
+          font-size: .8rem;
+        
+      }
     .card-work{
         position: initial;
         width: 80%;
