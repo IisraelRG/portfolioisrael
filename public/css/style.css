@@ -229,21 +229,21 @@ main{
         font-size: 16px; 
      }
     .title{
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     .Jdescription{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .Jpdescription{
-        font-size: .8rem;
+        font-size: 1rem;
       
     }
     .FCdescription{
-        font-size: .8rem;
+        font-size: 1rem;
        
     }
     .ctext p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .card-work{
         position: initial;
