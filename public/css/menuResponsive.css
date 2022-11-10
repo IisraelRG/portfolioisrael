@@ -1,4 +1,5 @@
 @import url(widgets.css);
+@media (max-width:1480px) {
 header{
     position: relative;
     width: 100%;
@@ -9,7 +10,11 @@ header{
     padding: 30px;
     z-index: 1;
 }
+.logo a h2{
+    font-size: 1.8rem;
+}
 .logo .logosubcolor{
+    font-size: 1.8rem;
     color: var(--purple_color);
 }
 nav a{
@@ -28,9 +33,10 @@ nav.active{
     z-index: 2;
 }
 .menu i{
-    font-size: 25px;
+    font-size: 1.8rem;
 }
-@media all and (max-width:810px) {
+}
+@media (max-width:768px) {
     nav{
         transition: all 0.7s ease-out;
     }
